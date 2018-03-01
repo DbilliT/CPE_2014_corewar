@@ -1,0 +1,91 @@
+\hypertarget{aff__line__err_8c}{}\section{d\+\_\+asm/aff\+\_\+line\+\_\+err.c File Reference}
+\label{aff__line__err_8c}\index{d\+\_\+asm/aff\+\_\+line\+\_\+err.\+c@{d\+\_\+asm/aff\+\_\+line\+\_\+err.\+c}}
+
+
+error message  
+
+
+{\ttfamily \#include \char`\"{}asm.\+h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{aff__line__err_8c_a359318ca5c0f736fb8895e1059f042b9}{warning\+\_\+comment\+\_\+line} (int j)
+\begin{DoxyCompactList}\small\item\em This is warning\+\_\+comment\+\_\+line. \end{DoxyCompactList}\item 
+void \hyperlink{aff__line__err_8c_a9f5250c16d7001950360ae997e71995e}{message\+\_\+error\+\_\+line} (int j)
+\begin{DoxyCompactList}\small\item\em This is message\+\_\+error\+\_\+line. \end{DoxyCompactList}\item 
+void \hyperlink{aff__line__err_8c_ab14d0e43df37671d123d78c168aa8391}{message\+\_\+reg\+\_\+line} (int j)
+\begin{DoxyCompactList}\small\item\em This is message\+\_\+reg\+\_\+line. \end{DoxyCompactList}\item 
+void \hyperlink{aff__line__err_8c_abb34501feb3cc75a4aab114ebdb6a368}{warning\+\_\+dir\+\_\+line} (int j)
+\begin{DoxyCompactList}\small\item\em This is warning\+\_\+dir\+\_\+line. \end{DoxyCompactList}\item 
+void \hyperlink{aff__line__err_8c_a8ec5186bd19ae1f15359913d4826dbb5}{warning\+\_\+indir\+\_\+line} (int j)
+\begin{DoxyCompactList}\small\item\em This is warning\+\_\+indir\+\_\+line. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+error message 
+
+\begin{DoxyAuthor}{Author}
+deluss\+\_\+c, david\+\_\+k 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+5 december 2014
+\end{DoxyDate}
+In this .c there is fonctions that write error messages and warning messages on the error output. 
+
+\subsection{Function Documentation}
+\hypertarget{aff__line__err_8c_a9f5250c16d7001950360ae997e71995e}{}\index{aff\+\_\+line\+\_\+err.\+c@{aff\+\_\+line\+\_\+err.\+c}!message\+\_\+error\+\_\+line@{message\+\_\+error\+\_\+line}}
+\index{message\+\_\+error\+\_\+line@{message\+\_\+error\+\_\+line}!aff\+\_\+line\+\_\+err.\+c@{aff\+\_\+line\+\_\+err.\+c}}
+\subsubsection[{message\+\_\+error\+\_\+line}]{\setlength{\rightskip}{0pt plus 5cm}void message\+\_\+error\+\_\+line (
+\begin{DoxyParamCaption}
+\item[{int}]{j}
+\end{DoxyParamCaption}
+)}\label{aff__line__err_8c_a9f5250c16d7001950360ae997e71995e}
+
+
+This is message\+\_\+error\+\_\+line. 
+
+write \char`\"{}\+Syntaxe error line\char`\"{} when there is a syntaxe error at the \textquotesingle{}j\textquotesingle{} line and exit the program. \hypertarget{aff__line__err_8c_ab14d0e43df37671d123d78c168aa8391}{}\index{aff\+\_\+line\+\_\+err.\+c@{aff\+\_\+line\+\_\+err.\+c}!message\+\_\+reg\+\_\+line@{message\+\_\+reg\+\_\+line}}
+\index{message\+\_\+reg\+\_\+line@{message\+\_\+reg\+\_\+line}!aff\+\_\+line\+\_\+err.\+c@{aff\+\_\+line\+\_\+err.\+c}}
+\subsubsection[{message\+\_\+reg\+\_\+line}]{\setlength{\rightskip}{0pt plus 5cm}void message\+\_\+reg\+\_\+line (
+\begin{DoxyParamCaption}
+\item[{int}]{j}
+\end{DoxyParamCaption}
+)}\label{aff__line__err_8c_ab14d0e43df37671d123d78c168aa8391}
+
+
+This is message\+\_\+reg\+\_\+line. 
+
+write \char`\"{}no such register line\char`\"{} when there is no registre at the \textquotesingle{}j\textquotesingle{} line and exit the program. \hypertarget{aff__line__err_8c_a359318ca5c0f736fb8895e1059f042b9}{}\index{aff\+\_\+line\+\_\+err.\+c@{aff\+\_\+line\+\_\+err.\+c}!warning\+\_\+comment\+\_\+line@{warning\+\_\+comment\+\_\+line}}
+\index{warning\+\_\+comment\+\_\+line@{warning\+\_\+comment\+\_\+line}!aff\+\_\+line\+\_\+err.\+c@{aff\+\_\+line\+\_\+err.\+c}}
+\subsubsection[{warning\+\_\+comment\+\_\+line}]{\setlength{\rightskip}{0pt plus 5cm}void warning\+\_\+comment\+\_\+line (
+\begin{DoxyParamCaption}
+\item[{int}]{j}
+\end{DoxyParamCaption}
+)}\label{aff__line__err_8c_a359318ca5c0f736fb8895e1059f042b9}
+
+
+This is warning\+\_\+comment\+\_\+line. 
+
+write \char`\"{}\+Warning no comment at line\char`\"{} when there is no comment at the \textquotesingle{}j\textquotesingle{} line. \hypertarget{aff__line__err_8c_abb34501feb3cc75a4aab114ebdb6a368}{}\index{aff\+\_\+line\+\_\+err.\+c@{aff\+\_\+line\+\_\+err.\+c}!warning\+\_\+dir\+\_\+line@{warning\+\_\+dir\+\_\+line}}
+\index{warning\+\_\+dir\+\_\+line@{warning\+\_\+dir\+\_\+line}!aff\+\_\+line\+\_\+err.\+c@{aff\+\_\+line\+\_\+err.\+c}}
+\subsubsection[{warning\+\_\+dir\+\_\+line}]{\setlength{\rightskip}{0pt plus 5cm}void warning\+\_\+dir\+\_\+line (
+\begin{DoxyParamCaption}
+\item[{int}]{j}
+\end{DoxyParamCaption}
+)}\label{aff__line__err_8c_abb34501feb3cc75a4aab114ebdb6a368}
+
+
+This is warning\+\_\+dir\+\_\+line. 
+
+write \char`\"{}\+Warning D\+Irect too big line\char`\"{} when the direct is too big at the \textquotesingle{}j\textquotesingle{} line. \hypertarget{aff__line__err_8c_a8ec5186bd19ae1f15359913d4826dbb5}{}\index{aff\+\_\+line\+\_\+err.\+c@{aff\+\_\+line\+\_\+err.\+c}!warning\+\_\+indir\+\_\+line@{warning\+\_\+indir\+\_\+line}}
+\index{warning\+\_\+indir\+\_\+line@{warning\+\_\+indir\+\_\+line}!aff\+\_\+line\+\_\+err.\+c@{aff\+\_\+line\+\_\+err.\+c}}
+\subsubsection[{warning\+\_\+indir\+\_\+line}]{\setlength{\rightskip}{0pt plus 5cm}void warning\+\_\+indir\+\_\+line (
+\begin{DoxyParamCaption}
+\item[{int}]{j}
+\end{DoxyParamCaption}
+)}\label{aff__line__err_8c_a8ec5186bd19ae1f15359913d4826dbb5}
+
+
+This is warning\+\_\+indir\+\_\+line. 
+
+write \char`\"{}\+Warning D\+Irect too big line\char`\"{} when there is a probleme with the indirect at the \textquotesingle{}j\textquotesingle{} line. 
